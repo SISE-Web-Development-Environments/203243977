@@ -33,7 +33,7 @@ body{
 
 .all_site{
 	/*background: rgba(0,0,0,0.82) none no-repeat scroll 10px 6px;*/
-	background-image: url("_images/tenor.gif");
+	background-image: url("tenor.gif");
 
 	margin: 0 auto;
 	overflow: hidden;
