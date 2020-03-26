@@ -4,14 +4,11 @@ body{
 }
 
 section{
-    margin: auto;
+    margin: 10px auto;
+    padding-top: 4em;
     width: 1000px;
 }
 
-
-.sec{
-    margin: 20px;
-}
 
 /* PHOTOS CSS */
 section#photos {
