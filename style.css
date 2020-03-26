@@ -65,3 +65,8 @@ section#like #facebookLike{
       background: yellowgreen;
       height: 600px;
   }
+
+  .favoriteSong{
+      background: aliceblue;
+      marign: 0 auto;
+  }
