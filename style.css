@@ -1,0 +1,13 @@
+section#photos {
+    background-color: whitesmoke;
+}
+
+section#photos .gallery {
+    width: 200px;
+    margin: 10px;
+    transition-duration: 1s;
+}
+
+section#photos .gallery:hover {
+    transform: scale(2, 2);
+}
