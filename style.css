@@ -1,25 +1,28 @@
 body{
-    background-image: url(./images/_backgrounds/main.gif);
+    background-color: white;
+    background-image: url("./_images/_backgrounds/main.gif");
 }
-
 section{
-    margin: 10px auto;
-    padding-top: 4em;
+    margin: auto;
+    padding: 4em; 
     width: 1000px;
-    padding: 20px;
 }
 
 /* PHOTOS CSS */
 section#photos {
-    width: 860px;
-    margin: auto;
+    width: 900px;
     background-color: whitesmoke;
 }
 
 section#photos .gallery {
     width: 250px;
-    margin: 10px;
     transition-duration: 1s;
+}
+section#photos img{
+    border-radius: 4px;
+    padding: 5px;
+    /* width:  250px;
+    height: 170px; */
 }
 
 section#photos .gallery:hover {
@@ -29,5 +32,36 @@ section#photos .gallery:hover {
 section#contact{
     background-color: gainsboro;
     width: 500px;
-
 }
+
+#playlist .youtubeEmbed{
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+section#like{
+    width: 100%;
+    background-color: aquamarine;
+}
+section#like #facebookLike{
+    padding: 30px;
+    border: whitesmoke;
+    border-style: solid;
+    width: 500px;
+    height: 100px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  section#spa{
+      width: 100%;
+      background: yellowgreen;
+      height: 600px;
+  }
