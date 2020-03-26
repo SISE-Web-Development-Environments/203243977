@@ -1,13 +1,13 @@
 body{
-    background-image: url(./images/background.gif);
+    background-image: url(./images/_backgrounds/main.gif);
 }
 
 section{
     margin: 10px auto;
     padding-top: 4em;
     width: 1000px;
+    padding: 20px;
 }
-
 
 /* PHOTOS CSS */
 section#photos {
@@ -27,11 +27,7 @@ section#photos .gallery:hover {
 }
 
 section#contact{
-    background-color: white;
+    background-color: gainsboro;
     width: 500px;
 
-}
-
-.section form{
-    padding: 20px;
 }
