@@ -1,9 +1,19 @@
+
+body{
+    background-image: url(./images/background.gif);
+}
+
+
+/* PHOTOS CSS */
 section#photos {
+    width: 860px;
+    margin: auto;
+    padding: 20px;
     background-color: whitesmoke;
 }
 
 section#photos .gallery {
-    width: 200px;
+    width: 250px;
     margin: 10px;
     transition-duration: 1s;
 }
