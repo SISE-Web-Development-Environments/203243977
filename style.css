@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    background-image: url("./_images/_backgrounds/main.gif");
+    background: url("./_images/_backgrounds/main.gif");
 }
 section{
     margin: auto;
