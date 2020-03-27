@@ -70,3 +70,18 @@ section#like #facebookLike{
       background: yellowgreen;
       height: 600px;
   }
+
+/* PLAYLIST CSS */
+section#playlist .sec .main_video{
+     float:left;
+}
+
+
+section#playlist .sec .video_list{
+   margin-left: 20px;
+    float:left;
+    background-color: black;
+    min-height: 300px;
+    width: 405px;
+    border: 3px solid white;
+}
