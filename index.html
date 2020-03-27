@@ -49,7 +49,7 @@
             } else if (this.isDeleting && this.txt === '') {
                 this.isDeleting = false;
                 this.loopNum++;
-                delta = 500;
+                delta = 1000;
             }
 
             setTimeout(function () {
@@ -91,6 +91,10 @@
             <li class="list-inline-item"><a href="#spa">Q&A</a></li>
             <li class="list-inline-item"><a href="#contact">Contact Me</a></li>
         </ul>
+
+
+        <h3 class=" display-6 txt-rotate" data-period="2000"
+                            data-rotate='[ "Hey :)","Welcome to my first page!", "These days are a tough for the world.", "I hope this time will end soon .", "its really hard to hear about Italy   " ]'></h2>
     </nav>
 
     <section id="about" class="section">
@@ -102,9 +106,7 @@
                         <img src="./images/icons/about.png" style="width: 80px; height: 80px;"">
                     </div>
                 </div>
-                <!-- <h2 class=" display-4">About Me</h2> -->
-                        <h2 class=" display-4 txt-rotate" data-period="2000"
-                            data-rotate='[ "About Me", "about me", "על עצמי", "קצת עליי....", "I am..." ]'></h2>
+                <h2 class=" display-4">About Me</h2>
                         <p class="lead" style="text-align: left; font-size: x-large;">
                             <br>My name is Ronald, I'm a singer & actor.<br> This time I'm a 3rd year Information System
                             Engeneering
