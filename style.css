@@ -67,8 +67,8 @@ section#like #facebookLike{
 
   section#spa{
       width: 100%;
-      background: yellowgreen;
-      height: 600px;
+      /* background: yellowgreen; */
+      height: 700px;
   }
 
 /* PLAYLIST CSS */
