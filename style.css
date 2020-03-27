@@ -8,6 +8,12 @@ section{
     width: 1000px;
 }
 
+.menu_list li{
+font-size: x-large;
+padding-right: 15px;
+}
+
+
 /* PHOTOS CSS */
 section#photos {
     width: 900px;
@@ -64,9 +70,4 @@ section#like #facebookLike{
       width: 100%;
       background: yellowgreen;
       height: 600px;
-  }
-
-  .favoriteSong{
-      background: aliceblue;
-      marign: 0 auto;
   }
