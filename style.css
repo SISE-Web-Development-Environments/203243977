@@ -87,6 +87,7 @@ section#playlist .sec .video_list{
 }
 
 .audio { 
+    margin-top: 10px;
     margin-left: 100px;
     width: 300px; 
     border-radius: 190px;
