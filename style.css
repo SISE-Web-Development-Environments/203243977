@@ -85,3 +85,12 @@ section#playlist .sec .video_list{
     width: 405px;
     border: 3px solid white;
 }
+
+.audio { 
+    margin-left: 100px;
+    width: 300px; 
+    border-radius: 190px;
+    transform: scale(1.05);
+    color: blue;
+  }
+
